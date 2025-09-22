@@ -6,8 +6,8 @@ const BOT_TOKEN = process.env.BOT_TOKEN;
 const bot = new Telegraf(BOT_TOKEN);
 
 // === НАСТРОЙКИ ===
-const COST_PER_KG = 23;        // BYN за 1 кг
-const CNY_TO_BYN = 0.62;       // 1 юань = 0.62 BYN
+const COST_PER_KG = 24;        // BYN за 1 кг
+const CNY_TO_BYN = 0.64;       // 1 юань = 0.64 BYN
 
 // === КНОПКИ МЕНЮ ===
 const menuButtons = {
