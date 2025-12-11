@@ -9,7 +9,7 @@ if (!BOT_TOKEN) {
 const bot = new Telegraf(BOT_TOKEN);
 
 // === НАСТРОЙКИ ===
-const COST_PER_KG = 24;
+const COST_PER_KG = 32;
 const CNY_TO_BYN = 0.64;
 
 const menuButtons = {
